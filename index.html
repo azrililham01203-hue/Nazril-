@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Online Baju - Kualitas Terbaik, Harga Terjangkau</title>
+    <style>
+        /* Reset CSS */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Hero Section */
+        #hero {
+            background-image: url('images/hero-image.jpg'); /* Ganti dengan gambar yang sesuai */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 5rem 0;
+        }
+
+        #hero h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        #hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #e44d26;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Featured Products */
+        #featured-products {
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 0 2rem;
+        }
+
+        .product {
+            background-color: #fff;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        .product h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .product p {
+            color: #777;
+        }
+
+        /* About Us */
+        #about-us {
+            padding: 3rem 0;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        #about-us p {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+            nav ul li {
+                margin: 0 0.5rem;
+            }
+            #hero h2 {
+                font-size: 2rem;
+            }
+            #hero p {
+                font-size: 1rem;
+            }
+            .products-grid {
+                padding: 0 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Toko Online Baju</h1>
+        <nav>
+            <ul>
+                <li><a href="#hero">Beranda</a></li>
+                <li><a href="#featured-products">Produk</a></li>
+                <li><a href="#about-us">Tentang Kami</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Koleksi Baju Terbaru dengan Harga Terbaik</h2>
+        <p>Temukan gaya Anda dengan koleksi baju kami yang selalu update. Kualitas terbaik, harga terjangkau!</p>
+        <a href="#featured-products" class="btn">Lihat Koleksi</a>
+    </section>
+
+    <section id="featured-products">
+        <h2>Produk Unggulan</h2>
+        <div class="products-grid">
+            <div class="product">
+                <img src="images/tshirt.jpg" alt="T-Shirt Keren">
+                <h3>T-Shirt Keren</h3>
+                <p>T-shirt dengan desain modern dan bahan nyaman.</p>
+                <a href="#" class="btn">Beli Sekarang</a>
+            </div>
+            <div class="product">
+                <img src="images/hoodie.jpg" alt="Hoodie Kekinian">
+                <h3>Hoodie Kekinian</h3>
+                <p>Hoodie stylish untuk tampilan kasual sehari-hari.</p>
+                <a href="#" class="btn">Beli Sekarang</a>
+            </div>
+            <div class="product">
+                <img src="images/jeans.jpg" alt="Jeans Santai">
+                <h3>Jeans Santai</h3>
+                <p>Jeans berkualitas dengan potongan yang pas dan nyaman.</p>
+                <a href="#" class="btn">Beli Sekarang</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-us">
+        <h2>Tentang Kami</h2>
+        <p>Kami adalah toko online yang menyediakan berbagai pilihan baju berkualitas dengan harga terjangkau. Misi kami adalah memberikan pengalaman belanja yang menyenangkan dan memuaskan bagi setiap pelanggan. Dengan koleksi yang selalu update, kami berusaha memenuhi kebutuhan gaya Anda sehari-hari.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Toko Online Baju</p>
+    </footer>
+
+</body>
+</html>
